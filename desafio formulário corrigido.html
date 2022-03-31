@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulário de Cadastro</title>
+</head>
+
+<body>
+    <form type="submit" action="" method="post" enctype="multipart/form-data"> <!--sempre que for fazer upload de arquivos
+    o method é POST e o enctype é multipart/form-data-->
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="Name">Nome</label>
+            <br>
+                <input type="text" name="Name" 
+                placeholder="Digite seu nome" autocomplete size="15" id="Name" required> <!--fazer
+                desta forma é tão válido quanto da outra forma, essa forma é mais pela semãntica do HTML. Inser o id e o for
+            com o mesmo nome do id, assim o navegador irá entender que o input pertence àquela label-->
+            
+            <br><br>
+            <label for="email">Email</label>
+             <br>
+                <input type="email" name="E-mail" 
+                placeholder="Digite seu e-mail" autocomplete size="15" id="email" required>
+            
+            <br><br>
+            <label for="idade">Idade</label>
+            <br>
+                <input type="number" min="12" name="age" id="idade" required>
+            
+            <br><br>
+            <label for="calendario">Data de Nascimento</label>
+            <br>
+                <input type="date" name="Nascimento" id="calendario" required>
+            
+            <br><br>
+            <label>Onde você possui conta:
+            <br>
+                <label>
+                    <input type="checkbox" name="IG-account">
+                    Instagram
+                </label>
+                <label>
+                    <input type="checkbox" name="FB-account">
+                    Facebook
+                </label>
+                <label>
+                    <input type="checkbox" name="YT-account">
+                    YouTube
+                </label>
+            </label>
+            <br><br>
+            <label>Sexo
+            <br>
+                <label>
+                    <input type="radio" name="sexo" value="masc">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="fem">
+                    Feminino
+                </label>
+            </label>
+            <br><br>
+            <label>Cor dos Olhos
+                <input type="color" name="cor-dos-olhos"> <!--faltou colocar o name-->
+            </label>
+            <br><br>
+            <label>Biografia
+            <br>
+                <textarea name="bio"></textarea> <!--diferente do input, esta tag serve para textos maiores, duvidas, mensagens, etc.
+                                        faltou colocar o name-->
+            </label>
+            <br><br>
+            <label>Foto do Perfil
+            <br>
+                <input type="file" name="arquivo" accept="image/*">
+            </label>
+            <br><br>
+            <label>Telefone
+            <br>
+                <input type="tel" inputmode="numeric" name="Phone-number" autocomplete size="15">
+            </label>
+            <br><br>
+            <label>Link do Perfil do Facebook
+            <br>
+                <input type="url" name="Facebook-url" size="15">
+            </label>
+            <br><br>
+            <label>Senha
+            <br>
+                <input type="password" name="Senha" 
+                minlenght="6" maxlenght="8" size="15" required>
+            </label>
+            <br><br>
+            <button type="reset" name="botão-de-reset">Limpar</button>
+            <button type="submit" name="botão-de-enviar-dados">Enviar Dados</button>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
