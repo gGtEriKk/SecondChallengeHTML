@@ -6,9 +6,9 @@ Desafio proposto pelo curso DevClub para criar um formulário de preenchimento u
 
 > Imagens contendo o resultado:
 
-<img src="captura de tela missao.gif" alt="vídeo em formato de gif" width="400px">
-<img src="print estrutura HTML.png" alt="imagem com a estrutura HTML"width="400px">
-<img src="print página.png" alt="imagem com o resultado" width="400px">
+<img src="captura de tela missao.gif" alt="vídeo em formato de gif" width="400px;">
+<img src="print estrutura HTML.png" alt="imagem com a estrutura HTML"width="400px;">
+<img src="print página.png" alt="imagem com o resultado" width="400px;">
 
 ### ⚙ Linguagens Utilizadas:
 
