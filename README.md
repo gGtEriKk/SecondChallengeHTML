@@ -2,7 +2,7 @@
 
 ##Descrição do projeto:
 
-Desafio proposto pelo curso DevClub para criar um formulário de preenchimento utilizando <b>HTML</b>
+Desafio proposto pelo curso DevClub para criar um formulário de preenchimento utilizando <b>HTML</b>. A principal lição deste projeto foi a utilização de vários tipos de Input e como cada um funcionava.
 
 > Imagens contendo o resultado:
 
